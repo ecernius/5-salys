@@ -10,9 +10,9 @@ var salys = [
 ]
 
 function avrageSpace(salis, gyventojuSkaicius, valstybesPlotas) {
-    var average = valstybesPlotas / gyventojuSkaicius
+    var average = valstybesPlotas / gyventojuSkaicius * 1000000
     console.log(`salis: ${salis}, Gyventoju Skaicius:${gyventojuSkaicius}, Valstybes plotas:${valstybesPlotas}`)
-    console.log(`plotas tenkantis vienam guventojui  ${average.toFixed(2)}m2`)
+    console.log(`plotas tenkantis vienam guventojui  ${average.toFixed(2) }m2`)
     console.log("========")
 }
 for (var x of salys) {
